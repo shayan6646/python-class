@@ -8,7 +8,7 @@ class time:
         return str(obj.hour)+':'+str(obj.minute)+':'+str(obj.second)
     def number_of_seconds(obj):
         return str (obj.hour*3600+obj.minute*60+obj.second)
-    def add(obj1,hh,mm,ss):
+    def add(obj,hh,mm,ss):
         obj.hour += hh
         obj.minute += mm
         obj.second += ss
