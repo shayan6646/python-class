@@ -12,7 +12,7 @@ class time:
         obj.hour += hh
         obj.minute += mm
         obj.second += ss
-    def add(obj,obj2):
+    def add_saat(obj,obj2):
         obj.hour += obj2.hour
         obj.minute += obj2.minute
         obj.second += obj2.second
