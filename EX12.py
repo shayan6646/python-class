@@ -5,7 +5,7 @@ PASS='12345'
 USER='admin'
 
 def authentication():
-    if PASS==b and USER==a:
+    if PASS==en2 and USER==en1:
         btn1.config(background ='green') 
     else:   
         btn1.config(background ='red') 
@@ -29,3 +29,4 @@ en2.pack()
 btn1.pack()
 
 win.mainloop()
+
